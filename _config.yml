@@ -1,0 +1,86 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 根号三 # 网站标题
+subtitle: "O ever youthful, O ever weeping."
+  # 人活着本没有什么意义，但是只要活着，就可以找到有趣的事情。就像你发现了花，而我又发现了你一样。  # 网站副标题
+description: "前端开发者, 擅长各项前端技能，深入研究移动端开发与前端性能, 对 Nodejs 后端开发略有涉及。此为博客一枚." # 网站描述
+keyword: "前端 前端工程师 HTML5 CSS3 Javascript Node.js"
+author: sqrtthree # 作者
+language: zh-cmn-Hans  # 网站使用的语言
+timezone:   # 网站时区
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://blog.sqrtthree.com # 网址
+root: /     # 网站根目录
+permalink: :year/:month/:day/:title/    # 文章的 永久链接 格式
+permalink_defaults:     # 永久链接中各部分的默认值
+
+# Directory
+source_dir: source  # 资源文件夹，这个文件夹用来存放内容
+public_dir: public  # 公共文件夹，这个文件夹用于存放生成的站点文件
+tag_dir: tags   # 标签文件夹
+archive_dir: archives   #  归档文件夹
+category_dir: categories    # 分类文件夹
+code_dir: downloads/code    # Include code 文件夹
+i18n_dir: :lang     # 国际化（i18n）文件夹
+skip_render: README.md    # 跳过指定文件的渲染，您可使用 glob 来配置路径。
+
+# Writing
+new_post_name: :title.md    # File name of new posts   // 新文章的文件名称
+default_layout: draft       # 预设布局
+titlecase: false            # Transform title into titlecase   // 把标题转换为 title case
+external_link: true         # Open external links in new tab    // 在新标签中打开链接
+filename_case: 0            # 把文件名称转换为 (1) 小写或 (2) 大写
+render_drafts: false        # 显示草稿
+post_asset_folder: false    # 启动 Asset 文件夹
+relative_link: false        # 把链接改为与根目录的相对位址
+future: true                # 显示未来的文章
+highlight:  # 代码块的设置
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized # 默认分类
+category_map: # 分类别名
+tag_map: # 标签别名 
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD     # 日期格式
+time_format: HH:mm:ss       # 时间格式
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10    # 每页显示的文章量 (0 = 关闭分页功能)
+pagination_dir: page    # 分页目录
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins:
+
+feed:
+  type: atom
+  path: rss.xml
+  limit: 20
+  hub:
+
+simtemap:
+  path: sitemap.xml
+
+## Themes: http://hexo.io/themes/
+# theme: yilia
+theme: sqrtthree
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:sqrthree/sqrthree.github.io.git
