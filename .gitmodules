@@ -1,0 +1,3 @@
+[submodule "themes/sqrtthree"]
+	path = themes/sqrtthree
+	url = git@github.com:sqrthree/hexo-theme-sqrtthree.git
