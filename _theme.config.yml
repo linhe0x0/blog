@@ -1,0 +1,81 @@
+# Theme Configuration
+
+## Docs:
+## Source:
+
+# Site
+
+title:
+subtitle:
+description:
+keyword:
+author: sqrtthree | 根号三
+email: sqrtthree@foxmail.com | imsqrtthree@gmail.com
+SEOtitle: sqrtthree's blog | 根号三的博客
+language: cn
+
+# Site settings
+menu:
+  default: true
+  custom:
+    # 自定义链接: /
+    RSS: /rss.xml
+
+favicon: https://assets-cdn.github.com/favicon.ico
+
+# your avatar url
+avatar: https://avatars0.githubusercontent.com/u/8622362?v=3&s=460
+
+# 是否开启“关于我”。
+# 不开启——
+# aboutme: false
+# 开启——
+aboutme: O ever youthful, O ever weeping.
+
+# sns link
+# Get more icon from http://fontawesome.io/icons/#brand
+sns_link:
+  github: "https://github.com/sqrthree"
+  twitter: "https://twitter.com/sqrtthree"
+  weibo: "http://weibo.com/sqrtthree"
+  zhihu: "https://www.zhihu.com/people/sqrtthree"
+  mail: "sqrtthree@foxmail.com"
+
+contact:
+  QQ: "511249910"
+  E-mail: "imsqrtthree@gmail.com"
+
+toc_nav: false
+
+# 是否开启友情链接
+# 不开启——
+# friends: false
+# 开启——
+friends:
+  GitHub: https://github.com/sqrthree
+
+custom_footer:
+  title: GitHub
+  list:
+    GitHub: https://github.com/sqrthree
+
+home_header_bg: http://7xl8me.com1.z0.glb.clouddn.com/home.jpg
+# post_header_bg: /dist/images/post-bg.jpg
+
+# 是否在新窗口打开链接
+open_in_new: false
+
+# 是否开启评论功能
+# 不开启--
+# comment: false
+# 开启
+comment:
+  type: duoshuo
+  short_name: sqrtthree
+
+# 是否开启分享功能 true / fasle
+share: true
+
+analytics:
+  google: 'UA-64863915-1'
+  baidu: 'be6e4b8e6af93860f98b001aab5cbe79'
