@@ -23,7 +23,6 @@ script:
 after_success:
   - git config --global user.name "sqrtthree"
   - git config --global user.email "imsqrtthree@gmail.com"
-  - echo "${GH_TOKEN}"
-  - sed -e "s/\${GH_TOKEN}/${GH_TOKEN}/g" _config.yml
+  - sed -i "s/\${GH_TOKEN}/${GH_TOKEN}/g" _config.yml
   - hexo deploy
   # - hexo deploy --silent
