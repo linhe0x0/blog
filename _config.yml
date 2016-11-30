@@ -83,5 +83,5 @@ theme: sqrtthree
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://${GH_TOKEN}@github.com/sqrthree/sqrthree.github.io.git
+  repo: https://$GH_TOKEN@github.com/sqrthree/sqrthree.github.io.git
   # repo: git@github.com:sqrthree/sqrthree.github.io.git
