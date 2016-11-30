@@ -28,6 +28,7 @@ arr.numberOfOccurrences("a") === 0;
 {% endcodeblock %}
 
 ### 菜鸟出招
+
 {% codeblock %}
 Array.prototype.numberOfOccurrences = function(num) {
     var total = 0;
@@ -43,11 +44,13 @@ Array.prototype.numberOfOccurrences = function(num) {
 {% endcodeblock %}
 
 ### 菜鸟思维
+
 1. 利用数组遍历
 2. 如果数值相等则加1
 3. 返回标记总数的变量
 
 ### 偷师学艺
+
 {% codeblock %}
 Array.prototype.numberOfOccurrences = function(search) {
     return this.filter(function(num) {
