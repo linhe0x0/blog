@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sqrthree/MyBlog.svg?branch=master)](https://travis-ci.org/sqrthree/MyBlog)
+
 ## About Me
 
 I'm a Front-End developer in everywhere, now living in ZhengZhou, China.
