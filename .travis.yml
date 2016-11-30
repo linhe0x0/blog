@@ -24,5 +24,4 @@ after_success:
   - git config --global user.name "sqrtthree"
   - git config --global user.email "imsqrtthree@gmail.com"
   - sed -i "s/\${GH_TOKEN}/${GH_TOKEN}/g" _config.yml
-  - hexo deploy
-  # - hexo deploy --silent
+  - hexo deploy --silent
