@@ -1,4 +1,4 @@
-[![Hexo](https://img.shields.io/badge/hexo-3.2.2-brightgreen.svg)](http://hexo.io/) [![Build Status](https://travis-ci.org/sqrthree/MyBlog.svg?branch=master)](https://travis-ci.org/sqrthree/MyBlog)
+[![Hexo](https://img.shields.io/badge/hexo-3.2.2-brightgreen.svg)](http://hexo.io/) [![Build Status](https://travis-ci.org/sqrthree/MyBlog.svg?branch=master)](https://travis-ci.org/sqrthree/MyBlog) [![](https://david-dm.org/sqrthree/MyBlog.svg)](http://blog.sqrtthree.com/)
 
 ## About Me
 
