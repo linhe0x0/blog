@@ -2,15 +2,15 @@
 
 ## About Me
 
-I'm a Front-End developer in everywhere, now living in ZhengZhou, China.
+I'm a Front-End developer, now living in ZhengZhou, China.
 
-I'm ❤  programming & Front-End design.
+I'm ❤  programming & UI design.
 
 ## Skills
 
-* HTML5&CSS3	`*****`
-* Javascript	`********`
-* Nodejs		`**`
+* HTML5 & CSS3
+* JavaScript
+* Node.js
 
 ## Archives
 

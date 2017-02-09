@@ -57,7 +57,7 @@ friends:
 custom_footer:
   title: GitHub
   list:
-    GitHub: https://github.com/sqrthree
+    awesome-npm-packages: https://github.com/sqrthree/awesome-npm-packages
 
 home_header_bg: http://7xl8me.com1.z0.glb.clouddn.com/home.jpg
 # post_header_bg: /dist/images/post-bg.jpg

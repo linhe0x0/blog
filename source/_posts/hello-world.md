@@ -4,20 +4,25 @@ updated: 2015-06-27 20:30:41
 tags:
 categories:
 ---
-## About Me
-I'm a Front-End developer in everywhere, now living in ZhengZhou, China.
 
-I'm ❤  programming & Front-end design.
+## About Me
+
+I'm a Front-End developer, now living in ZhengZhou, China.
+
+I'm ❤  programming & UI design.
 
 ## Skills
-* HTML5&CSS3	`*****`
-* Javascript	`********`
-* Nodejs		`**`
+
+* HTML5 & CSS3
+* JavaScript
+* Node.js
 
 ## Tools
-* mac & vim
+
+* Mac & vim
 
 ## Contact Me
+
 * E-mail:	[sqrtthree@foxmail.com](mailto:sqrtthree@foxmail.com)
 * Github:	[@sqrthree](https://github.com/sqrthree)
 * Twitter:	[@sqrtthree](https://twitter.com/sqrtthree)

@@ -1,4 +1,4 @@
-title: 前端开发书籍推荐目录（连载ing）
+title: 前端开发书籍推荐目录
 tags: 资源
 categories: 技术
 date: 2016-04-26 14:47:07
