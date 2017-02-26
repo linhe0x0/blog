@@ -2,7 +2,10 @@ title: 一个关于 Styled Components 的五分钟介绍
 categories: 技术
 date: 2017-02-10 00:23:06
 updated: 2017-02-10 00:23:06
+thumbnail: https://camo.githubusercontent.com/4cf7254acbf60caa799fadead24a8e35839b84af/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f323030302f312a4449466a69345a6d4a61345f483345706247325841772e706e67
 tags:
+  - CSS
+  - React
 ---
 
 > * 原文地址：[A 5-minute Intro to Styled Components](https://medium.freecodecamp.com/a-5-minute-intro-to-styled-components-41f40eb7cd55#.z1nrxe1zr)
@@ -10,8 +13,6 @@ tags:
 * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
 * 译者：[根号三](https://github.com/sqrthree)
 * 校对者：[Tina92](https://github.com/Tina92)、[lovelyCiTY](https://github.com/lovelyCiTY)
-
-![](https://cdn-images-1.medium.com/max/2000/1*DIFji4ZmJa4_H3EpbG2XAw.png)
 
 CSS 是一个很神奇的语言，你可以在 15 分钟之内就学会一些基础部分，但是如果你要找到一个好的方式来组织你的样式，将会花费数年时间。
 
@@ -135,4 +136,4 @@ styled-components 的联合创造者 Max Stoiber 说：
 
 ## 您的鼓励是作者写作最大的动力
 
-如果您认为本网站的文章质量不错，读后觉得收获很大，不妨请我喝杯咖啡，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)
+如果您认为本网站的文章质量不错，读后觉得收获很大，不妨请我喝杯咖啡，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)。

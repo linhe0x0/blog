@@ -60,7 +60,6 @@ custom_footer:
     awesome-npm-packages: https://github.com/sqrthree/awesome-npm-packages
 
 home_header_bg: http://7xl8me.com1.z0.glb.clouddn.com/home.jpg
-# post_header_bg: /dist/images/post-bg.jpg
 
 # 是否在新窗口打开链接
 open_in_new: false
