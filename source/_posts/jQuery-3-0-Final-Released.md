@@ -77,11 +77,11 @@ deferred.then(function() {
 });
 deferred.resolve();
 ```
-    
+
 在以前，“first callback” 会被打印，并抛出一个错误。然后结束执行。紧挨着的  “second callback” 和 “rejection callback”  不会被打印出来。现在，符合标准的行为是  “rejection callback” 能够正确的被打印，正如你所看到的那样。err 是第一个回调函数中的 rejection values。
 
 2、 现在可以通过 .then() 方法的回调来控制一个 Deferred 的解决状态，除了 rejection values 和 non-thenable 之外的返回值都会变为 fulfillment values。以前，从 rejection 处理程序中的返回值作为了 rejection values。
-    
+
 Example: returns from rejection callbacks
 
 ```
@@ -171,7 +171,3 @@ jQuery在几年前曾尝试使用 `requestAnimationFrame`。但现存代码有�
 
 
 > 本文根据 [Timmy Willison](http://blog.jquery.com/author/timmywil/) 的《jQuery 3.0 Final Released!》所译，整个译文带有自己的理解与思想，如果译得不好或有不对之处还请同行朋友指点。如需转载此译文，需注明英文出处：[http://blog.jquery.com/2016/06/09/jquery-3-0-final-released/](http://blog.jquery.com/2016/06/09/jquery-3-0-final-released/)
-
-## 您的鼓励是作者写作最大的动力
-
-如果您认为本网站的文章质量不错，读后觉得收获很大，不妨小额赞助我一下，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)

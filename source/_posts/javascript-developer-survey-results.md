@@ -214,7 +214,3 @@ npm 接管了客户端依赖管理系统的天下，有超过 60% 的投票就�
 你从这次调查中获得了什么呢？
 
 > 本文根据 [ponyfoo](https://ponyfoo.com/) 的《[JavaScript Developer Survey Results](https://ponyfoo.com/articles/javascript-developer-survey-results)》所译，整个译文带有自己的理解与思想，如果译得不好或有不对之处还请同行朋友指点。如需转载此译文，需注明英文出处：[https://ponyfoo.com/articles/javascript-developer-survey-results](https://ponyfoo.com/articles/javascript-developer-survey-results)
-
-## 您的鼓励是作者写作最大的动力
-
-如果您认为本网站的文章质量不错，读后觉得收获很大，不妨小额赞助我一下，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)

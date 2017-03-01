@@ -108,7 +108,7 @@ supervisorctl reload，载入最新的配置文件，停止原有进程并按新
 supervisorctl update，根据最新的配置文件，启动新配置或有改动的进程，配置没有改动的进程不会受影响而重启。
 ```
 
-执行 `supervisorctl` 命令需要管理员权限，如果你以普通用户的身份登陆服务器，需要在命令前使用 `sudo` 命令: 
+执行 `supervisorctl` 命令需要管理员权限，如果你以普通用户的身份登陆服务器，需要在命令前使用 `sudo` 命令:
 
 ```
 sudo supervisorctl reread
@@ -118,7 +118,3 @@ sudo supervisorctl update
 ## 参考资料
 * [http://www.liaoxuefeng.com/article/0013738926914703df5e93589a14c19807f0e285194fe84000](http://www.liaoxuefeng.com/article/0013738926914703df5e93589a14c19807f0e285194fe84000)
 * [https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-supervisor-on-ubuntu-and-debian-vps](https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-supervisor-on-ubuntu-and-debian-vps)
-
-## 您的鼓励是作者写作最大的动力
-
-如果您认为本网站的文章质量不错，读后觉得收获很大，不妨小额赞助我一下，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)

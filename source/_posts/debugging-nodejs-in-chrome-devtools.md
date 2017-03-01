@@ -188,7 +188,7 @@ File: input.txt
 使用 `--headless`，开发工具将不会被打开。
 
 这可以用于命令行脚本：
-    
+
 ```
 devtool render.js --quit --headless > result.png
 ```
@@ -297,7 +297,3 @@ devtool app.js --no-node-timers
 而 `devtool` 的目的是让那些从 Chrome 开发者工具中转过来的人觉得比较亲切，而且也增加了像 Browser/Electron APIs 这样的功能。
 
 > 本文根据 [MATT DESLAURIERS](http://mattdesl.svbtle.com/) 的《[Debugging Node.js in Chrome DevTools](http://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools)》所译，整个译文带有自己的理解与思想，如果译得不好或有不对之处还请同行朋友指点。如需转载此译文，需注明英文出处：[Debugging Node.js in Chrome DevTools](http://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools)
-
-## 您的鼓励是作者写作最大的动力
-
-如果您认为本网站的文章质量不错，读后觉得收获很大，不妨小额赞助我一下，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)

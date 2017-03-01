@@ -9,7 +9,7 @@ tags:
 > All code in any code-base should look like a single person typed it, no matter how many people contributed. — idiomatic.js
 > 在任一个代码库中，不管是多少人协同开发，所有的代码都应该看起来像是一个人写的。- idiomatic.js
 
-This means strictly enforcing these agreed upon guidelines at all times. 
+This means strictly enforcing these agreed upon guidelines at all times.
 
 <!-- more -->
 
@@ -114,14 +114,14 @@ if (condition) {
 
 在这里我有一个小提示，就是工具对 `atom` 编辑器的支持相对于对 `sublime` 的支持来说要优秀很多， 包括检测速度呀，错误提示呀，`atom` 都略称一筹，这取决于 `atom` 优秀的插件机制。并且我在 `sublime`下面使用的时候发现了一个 bug，就是错误提示会显示为特殊编码导致无法以中文显示。解决方案呢，在这里[https://github.com/leeight/Baidu-FE-Code-Style/issues/6](https://github.com/leeight/Baidu-FE-Code-Style/issues/6)，不过感觉略麻烦的样子。
 
-## Tips: 
+## Tips:
 
 `FECS` 的错误报告默认为英文格式，由各 linter 直接提供。`FECS` 根据百度前端代码规范，作了一次影射转换，通过指定 reporter 为 baidu 可以看到中文的报告输出效果，对于某些比较抽象的描述，会同时在括号内提供英文原文补充说明。
 
-例如，你可以这样用: 
+例如，你可以这样用:
 
 ```
-fecs check --reporter=baidu 
+fecs check --reporter=baidu
 ```
 
 或者，更直接一点，直接添加一个 `alias`，使其在执行 `fecs check` 命令时默认为中文输出。
@@ -135,7 +135,3 @@ alias fecs='fecs --reporter=baidu'
 * [FECS 官网](http://fecs.baidu.com/)
 * [FECS WIKI](http://github.com/ecomfe/fecs/wiki)
 * [FECS Github](http://github.com/ecomfe/fecs)
-
-## 您的鼓励是作者写作最大的动力
-
-如果您认为本网站的文章质量不错，读后觉得收获很大，不妨小额赞助我一下，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)

@@ -46,7 +46,7 @@ $ echo 中文 | base64
 
 由于`btoa` 方法仅支持 ASCII 编码, 我们在转换中文的时候就需要先将中文转换为ASCII字符序列，再通过 btoa 进行 base64 编码, 从而实现『曲线救国』。
 
-转换ASCII字符序列的方法我们可以借助于 `encodeURIComponent` 和 `decodeURIComponent` 这两个方法完成. 
+转换ASCII字符序列的方法我们可以借助于 `encodeURIComponent` 和 `decodeURIComponent` 这两个方法完成.
 
 编码:
 {% codeblock %}
@@ -86,7 +86,3 @@ b64_to_utf8('SSUyNTIwJTI1dTI2NjElMjUyMFVuaWNvZGUlMjUyMQ=='); // "I ♡ Unicode!"
 ## 参考资料
 * [https://developer.mozilla.org/en/docs/Web/API/WindowBase64/Base64_encoding_and_decoding](https://developer.mozilla.org/en/docs/Web/API/WindowBase64/Base64_encoding_and_decoding)
 * [https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/btoa)
-
-## 您的鼓励是作者写作最大的动力
-
-如果您认为本网站的文章质量不错，读后觉得收获很大，不妨小额赞助我一下，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)

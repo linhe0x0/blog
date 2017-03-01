@@ -118,13 +118,3 @@ nohup ssserver -c ~/.config/shadowsocks/config.json &
 相对来说客户端就太简单了，各个平台均有 `GUI` 版本的客户端，只需要下载安装即可。文章最下方提供下载链接。
 
 以 `Mac` 客户端举例，安装完成之后，点击小飞机图标，选择添加服务器，然后将服务端配置中的 `端口号`，`加密方式`，`密码` 填写至对应的一栏中，其中服务器地址一栏要填写服务器的公网 `IP` 地址。之后就可以尽情的徜徉了。
-
-下载链接:
-
-* Windows 版: [链接: http://pan.baidu.com/s/1jGrmINW](http://pan.baidu.com/s/1jGrmINW) 密码: uti7
-* Mac 版: [链接: http://pan.baidu.com/s/1gdEt251](http://pan.baidu.com/s/1gdEt251) 密码: tpi6
-
-
-## 您的鼓励是作者写作最大的动力
-
-如果您认为本网站的文章质量不错，读后觉得收获很大，不妨小额赞助我一下，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)

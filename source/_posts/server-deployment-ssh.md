@@ -14,7 +14,7 @@ updated: 2015-10-20 13:23:27
 <!-- more -->
 
 ### 配置公钥登录
- 
+
 1、首先，在收到包含有服务器密码的邮件之后，打开终端(或是命令行)工具，输入 `ssh user@host` 命令进行登录，由于是第一次登陆，所以默认登陆为 `root`账户，例如:
 
 ```
@@ -149,7 +149,3 @@ ssh 别名
 * [SSH原理与运用（一）：远程登录](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html)
 * [SSH的配置和命令介绍](http://segmentfault.com/a/1190000002492828#articleHeader4)
 * [Ubuntu中useradd和adduser的区别](http://www.kafan.cn/edu/584682.html)
-
-## 您的鼓励是作者写作最大的动力
-
-如果您认为本网站的文章质量不错，读后觉得收获很大，不妨小额赞助我一下，让我有动力继续写出高质量的文章：我的支付宝账号是 `sqrtthree@foxmail.com`, [点击查看二维码](http://7xl8me.com1.z0.glb.clouddn.com/alipay.JPG)
