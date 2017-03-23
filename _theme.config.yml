@@ -70,8 +70,8 @@ open_in_new: false
 # comment: false
 # 开启
 comment:
-  type: duoshuo
-  short_name: sqrtthree
+  type: netease
+  productKey: c3543b8fa8f94d3c88ec9b8a1e9e6758
 
 # 是否开启打赏功能
 # 不开启--
