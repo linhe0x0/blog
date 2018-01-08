@@ -31,4 +31,4 @@ I'm ❤ programming & UI design.
 - GitHub: [@sqrthree](https://github.com/sqrthree)
 - Twitter: [@sqrtthree](https://twitter.com/sqrtthree)
 - Weibo: [@sqrtthree](http://weibo.com/sqrtthree)
-- Blog: [blog.sqrtthree.com/](http://blog.sqrtthree.com/)
+- Blog: [blog.sqrtthree.com](http://blog.sqrtthree.com/)
