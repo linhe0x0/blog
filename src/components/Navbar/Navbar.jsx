@@ -55,7 +55,7 @@ class Navbar extends React.Component {
   }
 
   render() {
-    const { showDefaultItems, external, showAboutPage } = this.props
+    const { brand, showDefaultItems, external, showAboutPage } = this.props
     const { direction, isOnTop } = this.state
     const navbarClass = classnames({
       'navbar--is-visible': !isOnTop && direction === 'down',
@@ -109,7 +109,7 @@ class Navbar extends React.Component {
       <nav className={`navbar navbar-expand-sm fixed-top navbar-custom ${navbarClass}`}>
         <div className="container">
           <div className="collapse navbar-collapse justify-content-between">
-            <Link className="navbar-brand" to="/">根号三</Link>
+            <Link className="navbar-brand" to="/">{brand}</Link>
             <ul className="nav navbar-nav navbar-right text-uppercase">
               { navItems }
             </ul>
@@ -121,6 +121,7 @@ class Navbar extends React.Component {
 }
 
 Navbar.propTypes = {
+  brand: PropTypes.string.isRequired,
   showDefaultItems: PropTypes.bool,
   external: PropTypes.array.isRequired,
   showAboutPage: PropTypes.bool,

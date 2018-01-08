@@ -39,6 +39,7 @@ export const query = graphql`
       siteMetadata {
         navbar {
           showDefaultItems
+          brand
           external {
             name
             to

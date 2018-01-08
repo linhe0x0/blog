@@ -1,18 +1,38 @@
 {
-  "name": "gatsby-blog",
+  "name": "lite",
   "version": "0.1.0",
-  "description": "",
+  "keywords": [
+    "Gatsby",
+    "static",
+    "blog",
+    "theme",
+    "react"
+  ],
+  "description": "A clean and delicate theme for blog based on Gatsby.",
   "main": "index.js",
+  "author": "sqrtthree <imsqrtthree@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqrthree/lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sqrthree/lite/issues"
+  },
+  "homepage": "https://github.com/sqrthree/lite#readme",
   "scripts": {
     "develop": "gatsby develop",
     "dev": "npm run develop",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "build": "gatsby build",
     "deploy": "node bin/deploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sqrtthree <imsqrtthree@gmail.com>",
-  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "dependencies": {
     "chalk": "^2.3.0",
     "classnames": "^2.2.5",
