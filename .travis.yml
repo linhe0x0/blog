@@ -7,7 +7,7 @@ branches:
   only:
     - master # 只检测 master 分支上的 commit
 
-intall:
+install:
   - yarn install
 
 script:
