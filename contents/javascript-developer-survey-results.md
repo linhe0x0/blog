@@ -76,7 +76,7 @@ date: "2015-12-26"
 
 ## 你运行持续集成测试吗？
 
-和 CI 类似，尽管许多人(超过40%)不使用 CI 服务器，但是差不多有 60% 的人表示在少数时间会使用 CI，其中有 32% 的人总是在 CI 服务器上运行测试代码。
+和 CI 类似，尽管许多人(超过 40%)不使用 CI 服务器，但是差不多有 60% 的人表示在少数时间会使用 CI，其中有 32% 的人总是在 CI 服务器上运行测试代码。
 
 ![An screenshot of the percentages for the ninth question](https://i.imgur.com/P04bJHG.png)
 
@@ -94,7 +94,7 @@ date: "2015-12-26"
 
 ## 你使用过哪个代码质量检测工具？
 
-看起来受访者在 ESLint 和 JSHint之间分成了两派，但是 JSLint 还是有差不多 30% 的投票率，在这么多年之后势头还是惊人的强劲。
+看起来受访者在 ESLint 和 JSHint 之间分成了两派，但是 JSLint 还是有差不多 30% 的投票率，在这么多年之后势头还是惊人的强劲。
 
 ![An screenshot of the percentages for the 12th question](https://i.imgur.com/RC8ePwr.png)
 

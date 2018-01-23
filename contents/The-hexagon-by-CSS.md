@@ -23,7 +23,6 @@ date: "2016-06-27"
 
 ![六边形](http://7xl8me.com1.z0.glb.clouddn.com/hexagon_1.png?imageView2/1/w/256/h/256/q/100%7Cwatermark/2/text/QHNxcnR0aHJlZQ==/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
 
-
 咋一看，这货怎么能用 CSS 来实现嘛？看官别着急，我给你画两条线你就能猜到了，请看下图：
 
 ![六边形](http://7xl8me.com1.z0.glb.clouddn.com/hexagon_2.png?imageView2/1/w/256/h/256/q/100%7Cwatermark/2/text/QHNxcnR0aHJlZQ==/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
@@ -55,7 +54,6 @@ date: "2016-06-27"
 女神表达了感激之情，我们在 QQ 上轻(gan)松(ga)的聊了起来，看起来是到了该约周末一起吃饭的时候了。
 
 > "啊，抱歉噢，我周末要跟男朋友一起去逛街呢"
-
 
 哦。
 

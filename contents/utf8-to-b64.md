@@ -14,7 +14,7 @@ date: "2015-08-29"
 
 ## window.btoa 与 window.atob 不支持中文
 
-但是这种方法存在的问题是:`window.btoa()` 不支持中文, `window.atob()`转换含有中文的 base64编码的时候中文部分会变为乱码.详情如下:
+但是这种方法存在的问题是:`window.btoa()` 不支持中文, `window.atob()`转换含有中文的 base64 编码的时候中文部分会变为乱码.详情如下:
 
 我们在 bash 终端下先得到『中文』这两个字的 base64 编码
 
@@ -84,5 +84,6 @@ b64_to_utf8('SSUyNTIwJTI1dTI2NjElMjUyMFVuaWNvZGUlMjUyMQ=='); // "I ♡ Unicode!"
 通过上面的这种方法去解析 GitHub 的数据的时候, 发现中文能够正常显示了. 显然 GitHub 也是采用了这种方案.
 
 ## 参考资料
+
 * [https://developer.mozilla.org/en/docs/Web/API/WindowBase64/Base64_encoding_and_decoding](https://developer.mozilla.org/en/docs/Web/API/WindowBase64/Base64_encoding_and_decoding)
 * [https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/btoa)

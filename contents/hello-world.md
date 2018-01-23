@@ -8,7 +8,7 @@ date: "2015-06-27"
 
 I'm a Front-End developer, now living in ZhengZhou, China.
 
-I'm ❤  programming & UI design.
+I'm ❤ programming & UI design.
 
 ## Skills
 
@@ -23,7 +23,7 @@ I'm ❤  programming & UI design.
 
 ## Contact Me
 
-* E-mail:	[sqrtthree@foxmail.com](mailto:sqrtthree@foxmail.com)
-* Github:	[@sqrthree](https://github.com/sqrthree)
-* Twitter:	[@sqrtthree](https://twitter.com/sqrtthree)
-* Weibo:	[@sqrtthree](http://weibo.com/sqrtthree)
+* E-mail: [sqrtthree@foxmail.com](mailto:sqrtthree@foxmail.com)
+* Github: [@sqrthree](https://github.com/sqrthree)
+* Twitter: [@sqrtthree](https://twitter.com/sqrtthree)
+* Weibo: [@sqrtthree](http://weibo.com/sqrtthree)

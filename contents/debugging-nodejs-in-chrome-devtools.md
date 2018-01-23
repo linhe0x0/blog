@@ -176,7 +176,7 @@ console.log('File: %s', file);
 File: input.txt
 ```
 
-#### --quit` 和 `--headless`
+#### `--quit` 和 `--headless`
 
 使用 `--quit`，当遇到了一个错误(如语法错误或者未捕获的异常)时，进程将会安静的退出，并返回结束码`1` 。
 

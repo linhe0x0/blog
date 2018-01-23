@@ -41,7 +41,7 @@ date: "2017-03-01"
 npm install -g slush
 ```
 
- 安装完了之后，你可以执行下面这行命令来确保安装成功：
+安装完了之后，你可以执行下面这行命令来确保安装成功：
 
 ```
 slush -v
@@ -78,7 +78,7 @@ cd my-first-slush-project
 slush react-starter-kit
 ```
 
-`react-starter-kit `是什么鬼？我们安装的明明是 `slush-react-starter-kit` 呀。没错，在生成项目的时候，slush 后面跟的脚手架名字中是不带 `slush` 关键词的。就是这么任性。
+`react-starter-kit`是什么鬼？我们安装的明明是 `slush-react-starter-kit` 呀。没错，在生成项目的时候，slush 后面跟的脚手架名字中是不带 `slush` 关键词的。就是这么任性。
 
 ![](https://ww4.sinaimg.cn/large/006tNc79ly1fd3xirh0ebg30jg0axhdt.gif)
 
@@ -104,49 +104,52 @@ slush react-starter-kit
 
 前面已经说到 Slush 是基于 Gulp 作为基础工具的，所以你只需要按照 Gulp 的使用方法在 `slushfile.js` 编写任务流就可以啦。
 
-咦，好像有点不太对，既然是用 Gulp，那么 `gulpfile.js`  文件呢？
+咦，好像有点不太对，既然是用 Gulp，那么 `gulpfile.js` 文件呢？
 
 ![](https://ww3.sinaimg.cn/large/006tNc79gy1fd3y3nwzfgj304o03smxd.jpg)
 
-这里确实是不需要 `gulpfile.js`  文件啦，因为 Gulp 任务都在 `slushfile.js` 文件中写啦，Slush 会帮你自动驱动 Gulp 的啦。
+这里确实是不需要 `gulpfile.js` 文件啦，因为 Gulp 任务都在 `slushfile.js` 文件中写啦，Slush 会帮你自动驱动 Gulp 的啦。
 
 好了，那么 `slushfile.js` 文件中的到底该怎么写呢？放着我来，小哥亲自给你示范一下：
 
 ```javascript
 var gulp = require('gulp'),
-    install = require('gulp-install'),
-    conflict = require('gulp-conflict'),
-    template = require('gulp-template'),
-    inquirer = require('inquirer');
+  install = require('gulp-install'),
+  conflict = require('gulp-conflict'),
+  template = require('gulp-template'),
+  inquirer = require('inquirer')
 
-gulp.task('default', function (done) {
-  inquirer.prompt([
-    {
-    	type: 'input',
-    	name: 'name',
-    	message: 'Give your app a name',
-    	default: gulp.args.join(' ') // 从运行参数中获取值作为 name 的默认值。
-    },
-    {
-    	type: 'confirm',
-    	name: 'moveon',
-        message: 'Continue?'
-    }
-  ]).then(function (answers) {
-    if (!answers.moveon) {
-      return done();
-    }
+gulp.task('default', function(done) {
+  inquirer
+    .prompt([
+      {
+        type: 'input',
+        name: 'name',
+        message: 'Give your app a name',
+        default: gulp.args.join(' '), // 从运行参数中获取值作为 name 的默认值。
+      },
+      {
+        type: 'confirm',
+        name: 'moveon',
+        message: 'Continue?',
+      },
+    ])
+    .then(function(answers) {
+      if (!answers.moveon) {
+        return done()
+      }
 
-    gulp.src(__dirname + '/templates/**')      // 使用脚本所在的目录作为相对路径。
-      .pipe(template(answers))                 // Lodash 模板支持，可以方便的在模板中进行插值。
-      .pipe(conflict('./'))                    // 当文件冲突时，询问是否覆盖。
-      .pipe(gulp.dest('./'))                   // 输出到执行命令的当前文件夹中。
-      .pipe(install())                         // 使用 `bower install` 或 `npm install` 执行安装操作。
-      .on('end', function () {
-        done();                                // 告知完成。
-      });
-  });
-});
+      gulp
+        .src(__dirname + '/templates/**') // 使用脚本所在的目录作为相对路径。
+        .pipe(template(answers)) // Lodash 模板支持，可以方便的在模板中进行插值。
+        .pipe(conflict('./')) // 当文件冲突时，询问是否覆盖。
+        .pipe(gulp.dest('./')) // 输出到执行命令的当前文件夹中。
+        .pipe(install()) // 使用 `bower install` 或 `npm install` 执行安装操作。
+        .on('end', function() {
+          done() // 告知完成。
+        })
+    })
+})
 ```
 
 PS: 去哪里发现诸如 `[inquirer](https://github.com/SBoudrias/Inquirer.js)` 这么好用的 package 呢？你可以关注下 [github.com/sqrthree/awesome-npm-packages](https://github.com/sqrthree/awesome-npm-packages) 哟。
@@ -159,7 +162,7 @@ PS: 去哪里发现诸如 `[inquirer](https://github.com/SBoudrias/Inquirer.js)`
 
 ## 生成 Slush 脚手架的脚手架
 
-尽管自定义一个脚手架已经非常方便了，但是细心的你会发现几乎每个脚手架之间 `slushfile.js` 也都大同小异，只是 `templates` 文件夹中的模板文件不一样，所以呢，你懂得😉。
+尽管自定义一个脚手架已经非常方便了，但是细心的你会发现几乎每个脚手架之间 `slushfile.js` 也都大同小异，只是 `templates` 文件夹中的模板文件不一样，所以呢，你懂得 😉。
 
 [slush-generator](https://github.com/chrisenytc/slush-generator) 就是这么一个让我们来生成 Slush 脚手架的脚手架。有了它，创建自定义脚手架的时候异常方便。
 

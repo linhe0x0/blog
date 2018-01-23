@@ -6,14 +6,15 @@ tags:
   - jade
 date: "2015-08-20"
 ---
+
 ## 1、文档声明
 
 我们在开始写一个 `html` 页面的时候，首先要写上 `DOCTYPE` 文档声明的，现在通常情况下我们都是采用 `HTML5` 的文档声明方式，那么在 `jade` 里面我们应该怎么写呢？
 
-在 `jade` 里面编写文档声明有2种方式：
+在 `jade` 里面编写文档声明有 2 种方式：
 
 1. 我们可以直接在 `jade` 文件里面写 `doctype html` 即可
-2. `jade` 为我们提供了一个简单的写法，`!!! 5` (不过好像 `jade` 在升级之后的新版本中不推荐使用此方法了 -_-)
+2. `jade` 为我们提供了一个简单的写法，`!!! 5` (不过好像 `jade` 在升级之后的新版本中不推荐使用此方法了)
 
 当然，`jade` 还默认支持其他类型的文档声明，只需要使用 `doctype` 跟上下面的选项即可。`jade` 默认支持的有:
 
@@ -39,6 +40,7 @@ doctype default
 ```
 
 例如：如果我们要想写 `XHTML 1.0 Strict` 文档声明，则可以这样写：
+
 ```
 doctype strict
 ```
@@ -73,7 +75,7 @@ html
 </html>
 ```
 
-**`jade` 是以严格的缩进来区分标签的开始和结束的，默认为2个空格表示缩进。**
+**`jade` 是以严格的缩进来区分标签的开始和结束的，默认为 2 个空格表示缩进。**
 
 如果我们要写一个标签并且带有内容，比如说要写一个标题，我们只需要在标签单词后面加一个空格，然后跟上内容即可。
 
@@ -210,6 +212,7 @@ p#j-text.text this is a paragraph.
 h1(id="id", class="class") this is a title.
 p(id="j-text", class="text") this is a paragraph.
 ```
+
 结果是一样的：
 
 ```
@@ -222,6 +225,7 @@ p(id="j-text", class="text") this is a paragraph.
 ```
 a(herf="/index.html", title="this is a link.", target="_blank", data-uid="1000") index.html
 ```
+
 编译结果为：
 
 ```
@@ -233,6 +237,7 @@ a(herf="/index.html", title="this is a link.", target="_blank", data-uid="1000")
 ```
 input(type="checkbox", name="all", checked, value="全选")
 ```
+
 编译结果为：
 
 ```

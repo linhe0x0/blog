@@ -37,7 +37,7 @@ CSS 是一个很神奇的语言，你可以在 15 分钟之内就学会一些基
 关于 Styled Components 你需要理解的最主要的事情就是其名称应该采取字面意思。你不再根据他们的 Class 或者 HTML 元素来对 HTML 元素或组件进行样式化了。
 
 ```css
-<h1 className="title">Hello World</h1>
+<h1 className='title' > Hello World</h1>
 
 h1.title {
   font-size: 1.5em;
@@ -119,7 +119,7 @@ styled-components 的联合创造者 Max Stoiber 说：
 
 事实上，styled-components 生成它自己的随机 class 名会使你很难通过浏览器的开发工具来确定你的样式最初是在哪里定义的。
 
-但是鼓舞人心的是，styled-components 核心团队已经意识到了这些问题，并且努力地一个又一个的攻克它们。[版本 2 很快就要来啦]((https://github.com/styled-components/styled-components/tree/v2))，我真的很期待它呢。
+但是鼓舞人心的是，styled-components 核心团队已经意识到了这些问题，并且努力地一个又一个的攻克它们。[版本 2 很快就要来啦](<(https://github.com/styled-components/styled-components/tree/v2)>)，我真的很期待它呢。
 
 ### 了解更多一点吧
 
@@ -127,9 +127,9 @@ styled-components 的联合创造者 Max Stoiber 说：
 
 如果我的文章让你感到好奇的话，这里有一些链接你可以了解更多关于 styled-components 的知识。
 
-- Max Stoiber 最近给 [Smashing Magazine](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/) 写了一篇文章有关创建 styled-components 的原因的文章。
-- [styled-components repo](https://github.com/styled-components/styled-components) 它自己就有一个很丰富的文档.
-- [Jamie Dixon 写的这篇文章](https://medium.com/@jamiedixon/styled-components-production-patterns-c22e24b1d896#.tfxr5bws2) 讲述了切换到 styled-components 的几个好处.
-- 如果你想了解更多关于这个库实际上是如何实现的，可以阅读 Max 的 [这篇文章](http://mxstbr.blog/2016/11/styled-components-magic-explained/)。
+* Max Stoiber 最近给 [Smashing Magazine](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/) 写了一篇文章有关创建 styled-components 的原因的文章。
+* [styled-components repo](https://github.com/styled-components/styled-components) 它自己就有一个很丰富的文档.
+* [Jamie Dixon 写的这篇文章](https://medium.com/@jamiedixon/styled-components-production-patterns-c22e24b1d896#.tfxr5bws2) 讲述了切换到 styled-components 的几个好处.
+* 如果你想了解更多关于这个库实际上是如何实现的，可以阅读 Max 的 [这篇文章](http://mxstbr.blog/2016/11/styled-components-magic-explained/)。
 
 如果你想更进一步，也可以了解下 [Glamor](https://github.com/threepointone/glamor) —— 一个完全不同的 CSS 新浪潮。

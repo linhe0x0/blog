@@ -81,7 +81,7 @@ $ fecs format --help
 }
 ```
 
-比如说他们的[JavaScript编码规范](https://github.com/ecomfe/spec/blob/master/javascript-style-guide.md) 中关于换行中有这样一条 [对于if...else...try...catch...finally 等语句，推荐使用在 } 号后添加一个换行的风格，使代码层次结构更清晰，阅读性更好](https://github.com/ecomfe/spec/blob/master/javascript-style-guide.md#建议-对于-ifelsetrycatchfinally-等语句推荐使用在--号后添加一个换行-的风格使代码层次结构更清晰阅读性更好)，这一条我就很不喜欢嘛，那我可以这样配置:
+比如说他们的[JavaScript 编码规范](https://github.com/ecomfe/spec/blob/master/javascript-style-guide.md) 中关于换行中有这样一条 [对于 if...else...try...catch...finally 等语句，推荐使用在 } 号后添加一个换行的风格，使代码层次结构更清晰，阅读性更好](https://github.com/ecomfe/spec/blob/master/javascript-style-guide.md#建议-对于-ifelsetrycatchfinally-等语句推荐使用在--号后添加一个换行-的风格使代码层次结构更清晰阅读性更好)，这一条我就很不喜欢嘛，那我可以这样配置:
 
 ```
 {

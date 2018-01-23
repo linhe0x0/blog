@@ -6,6 +6,7 @@ tags:
   - "工具"
 date: "2016-02-23"
 ---
+
 > Modern book format and toolchain using Git and Markdown
 
 这是 GitBook 项目主页上对 GitBook 的定义。
@@ -16,7 +17,7 @@ GitBook 是一个命令行工具。通过它，你能够使用 Git 和 Markdown 
 
 <!-- more -->
 
-刚好近日准备通过 GitBook 来写一些教程，这里就先简明介绍一下它的使用。嗯？我写的什么教程？ 哈哈，就不告诉你，等写好了再说 <(￣▽￣)> 哇哈哈…
+刚好近日准备通过 GitBook 来写一些教程，这里就先简明介绍一下它的使用。嗯？我写的什么教程？ 哈哈，就不告诉你，等写好了再说 <(￣ ▽ ￣)> 哇哈哈…
 
 ## 安装
 

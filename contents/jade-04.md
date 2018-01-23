@@ -6,6 +6,7 @@ tags:
   - jade
 date: "2015-08-20"
 ---
+
 ## 1、神奇的 `mixins`
 
 想必有 `less` & `sass` 经验的同学对 `mixins` 一定都不陌生了，`mixins` 呢，其实就是方便对一堆代码块的重复利用。在 `Jade` 里面当然也少不了代码块的复用咯~~
@@ -53,7 +54,7 @@ mixin info(name, skills)
 </ul>
 ```
 
-什么？你还想要嵌套的 `mixins`，╮(╯▽╰)╭  怎么这么多事。。
+什么？你还想要嵌套的 `mixins`，╮(╯▽╰)╭ 怎么这么多事。。
 
 ```
 mixin info(name, skills)

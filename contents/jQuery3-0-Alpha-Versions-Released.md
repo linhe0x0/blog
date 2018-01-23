@@ -13,7 +13,7 @@ date: "2015-11-12"
 
 尽管版本号已经到了 3.0，但是在升级目前已经存在的代码时，可以预期这些发布不会造成太多的麻烦。确实，只是一些用来调整重要版本冲突的零碎改变，但是我们希望这些改变不会实际影响到很多人。`jQuery Migrate` 插件可以很好的帮助你在你的代码中识别出兼容性问题。在这个 `alpha` 版本中，你针对于这些变化的反馈将会极大的帮助我们，所以请在你目前已有的代码和插件中尝试一下。
 
-实际上，这里有两个版本。第一个版本是 `jQuery 3.0`, 这个版本支持现代浏览器和 `IE9` 以后的浏览器环境。第二个版本是 `jQuery Compat 3.0`，这个支持 `IE8`。作为一个额外的福利，就是 `jQuery` 和 `jQuery Compat` 这两个版本都支持 Yandex 浏览器(一个2012年发布的免费软件)。你可以从 jQuery CDN 或者直接通过下面这些链接获取这两个文件。
+实际上，这里有两个版本。第一个版本是 `jQuery 3.0`, 这个版本支持现代浏览器和 `IE9` 以后的浏览器环境。第二个版本是 `jQuery Compat 3.0`，这个支持 `IE8`。作为一个额外的福利，就是 `jQuery` 和 `jQuery Compat` 这两个版本都支持 Yandex 浏览器(一个 2012 年发布的免费软件)。你可以从 jQuery CDN 或者直接通过下面这些链接获取这两个文件。
 
 [https://code.jquery.com/jquery-3.0.0-alpha1.js](https://code.jquery.com/jquery-3.0.0-alpha1.js)
 
@@ -57,7 +57,7 @@ https://github.com/jquery/jquery/issues/1751
 
 我们也更新了我们的 `.data()` 方法来更有效的匹配 HTML5 dataset specification. 所有的键值现在都从 kebab-case 转换成驼峰命名法，不再理会访问方式，数字也不再参与转换。例如: 我们不再区分 `foo-bar` 和 `fooBar`，但是仍然区分 `foo-42` 和 `foo42`。当通过调用无参数的 `.data()` 来取得所有的数据方法，或者尝试通过转换的键名(.data(“foo42”))而不是原始的(.data(“foo-42”))来获取数据时，这些改变将会发挥主要作用。
 
-##### jQuery.Deferred is now Promises/A+ compatible: jQuery.Deferred现在兼容Promises/A+
+##### jQuery.Deferred is now Promises/A+ compatible: jQuery.Deferred 现在兼容 Promises/A+
 
 `jQuery.Deferred` 对象为了兼容 `Promises/A+` 和 `ES2015 Promises` 已经做出了更新，Promises/A+ Compliance Test Suite 检验。这意味着 引入一个 `.catch()` 方法，`.then()`方法也有一些重要的改变。
 
@@ -66,7 +66,7 @@ https://github.com/jquery/jquery/issues/1751
 * 回调函数总是被异步调用。以前，它们根据绑定或是 resolution 被立即调用，无论哪个更晚一些。
 * Progress 回调函数不再解决受约束的 Deferred 对象。
 
-考虑一下下面的代码，哪个parent Deferred 被注入以及 child 回调函数产生异常:
+考虑一下下面的代码，哪个 parent Deferred 被注入以及 child 回调函数产生异常:
 
 ```
 var parent = jQuery.Deferred();
@@ -87,27 +87,27 @@ parent.reject( "foo" );
 console.log( "parent resolved" );
 ```
 
-在 jQuery 3.0 中，在调用任何回调之前会先记录 “parent resolved”，每一个子回调将会记录 “fulfilled bar”， 然后 grandchildren 将会和错误 “baz” 一起注入。在之前的版本中，会记录一次 “rejected bar” (child Deferred 已经注入而不是fulfilled)然后通过未捕获到的错误 “baz” 中断(“parent resolved” 不会被记录并且 grandchildren 会保持 unresolved 状态)。
+在 jQuery 3.0 中，在调用任何回调之前会先记录 “parent resolved”，每一个子回调将会记录 “fulfilled bar”， 然后 grandchildren 将会和错误 “baz” 一起注入。在之前的版本中，会记录一次 “rejected bar” (child Deferred 已经注入而不是 fulfilled)然后通过未捕获到的错误 “baz” 中断(“parent resolved” 不会被记录并且 grandchildren 会保持 unresolved 状态)。
 
 当捕获异常时有利于在浏览器中进行 debug, 使用注入回调来处理异常非常具有描述性(即显式的)。记住这个地方，你有责任在使用 promises 时总是添加至少一个注入回调，否则，任何错误都不会提示。
 
 Legacy 行为可以通过使用现在还不宜用的 `.pipe()` 方法替换 `.then()` 方法来重新获取，
 
-`jQuery.when` 方法也为了接受任何 thenable 对象而更新了，包括了原生的Promise对象。
+`jQuery.when` 方法也为了接受任何 thenable 对象而更新了，包括了原生的 Promise 对象。
 
 [https://github.com/jquery/jquery/issues/1722](https://github.com/jquery/jquery/issues/1722)
 [https://github.com/jquery/jquery/issues/2102](https://github.com/jquery/jquery/issues/2102)
 
-##### Removed special-case Deferred methods in jQuery.ajax: 移除了jQuery.ajax中Deferred方法的一些特殊情况
+##### Removed special-case Deferred methods in jQuery.ajax: 移除了 jQuery.ajax 中 Deferred 方法的一些特殊情况
 
-jqXHR 对象是一个Promise，但是也有像 `.abort()` 这样的额外的方法。因此你可以在创建之后停止一个请求。
+jqXHR 对象是一个 Promise，但是也有像 `.abort()` 这样的额外的方法。因此你可以在创建之后停止一个请求。
 
 随着用户越来越拥护类似像 AJAX 这样异步执行的 Promise 模式，通过 jQuery.ajax 进行 Promise 返回特殊事例的想法是越来越坏的主意。
 
 success, error, complete
 done, fail, always
 
-注意，这些对于相同名字的回调函数没有任何影响，它们将会继续存在，而且不会被弃用。这个只会影响Promise 方法！
+注意，这些对于相同名字的回调函数没有任何影响，它们将会继续存在，而且不会被弃用。这个只会影响 Promise 方法！
 
 [https://github.com/jquery/jquery/issues/2084](https://github.com/jquery/jquery/issues/2084)
 
@@ -121,7 +121,7 @@ done, fail, always
 
 `.width()`, `.height()`, `.css(“width”)`, 和 `.css(“height”)` 方法将返回带有小数点的数值(不论何时浏览器都会这样做)。
 
-以前，当你获取  width 和 height 的时候 `jQuery` 会对其进行取整。有一些浏览器会返回亚像素值 - 例如 IE 和 Firefox，并且有时当布局依赖这些值时用户需要这种精确度的值。我们不希望这些改变会对你的代码产生很大的影响，但是如果确实影响到了，请让我们知道。
+以前，当你获取 width 和 height 的时候 `jQuery` 会对其进行取整。有一些浏览器会返回亚像素值 - 例如 IE 和 Firefox，并且有时当布局依赖这些值时用户需要这种精确度的值。我们不希望这些改变会对你的代码产生很大的影响，但是如果确实影响到了，请让我们知道。
 
 [https://github.com/jquery/jquery/issues/1724](https://github.com/jquery/jquery/issues/1724)
 
@@ -138,7 +138,7 @@ done, fail, always
 [https://github.com/jquery/jquery/issues/2224](https://github.com/jquery/jquery/issues/2224)
 [https://github.com/jquery/jquery/issues/2225](https://github.com/jquery/jquery/issues/2225)
 
-##### Animations now use requestAnimationFrame:动画现在使用requestAnimationFrame
+##### Animations now use requestAnimationFrame:动画现在使用 requestAnimationFrame
 
 除了 `IE8` 和 `IE9` 之外，越来越多的平台都支持 `requestAnimationFrame` API，`jQuery` 现在在执行动画的时候也使用了此 API。这样的结果是会让动画越来平滑流畅，并且使用更少的 CPU 时间，在移动设备上也尽可能好的保存电量。
 
