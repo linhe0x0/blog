@@ -10,12 +10,12 @@ const TagPage = ({ data }) => {
 
   const mappedTags = {}
 
-  data.allMarkdownRemark.edges.forEach((item) => {
+  data.allMarkdownRemark.edges.forEach(item => {
     const { tags } = item.node.frontmatter
 
     if (!tags) return
 
-    tags.forEach((tag) => {
+    tags.forEach(tag => {
       if (!mappedTags[tag]) {
         mappedTags[tag] = []
       }
@@ -39,11 +39,11 @@ const TagPage = ({ data }) => {
   return (
     <div>
       <Helmet>
-        <html lang={siteMetadata.language} />
         <title>{`Tags - ${siteMetadata.SEOTitle}`}</title>
-        <meta name="keyword" content={siteMetadata.keyword} />
-        <meta name="description" content={siteMetadata.description} />
-        <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
       </Helmet>
       <Header
         title="Tags"
@@ -87,15 +87,12 @@ export const query = graphql`
     }
     site {
       siteMetadata {
-  			name
+        name
         bio
         avatar
         bgOfHomeHeader
-        language
         SEOTitle
-        keyword
-        description
       }
     }
   }
-`;
+`

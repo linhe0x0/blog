@@ -10,7 +10,7 @@ const CategoryPage = ({ data }) => {
 
   const mappedCategories = {}
 
-  data.allMarkdownRemark.edges.forEach((item) => {
+  data.allMarkdownRemark.edges.forEach(item => {
     const { category } = item.node.frontmatter
 
     if (!category) return
@@ -37,11 +37,11 @@ const CategoryPage = ({ data }) => {
   return (
     <div>
       <Helmet>
-        <html lang={siteMetadata.language} />
         <title>{`Categories - ${siteMetadata.SEOTitle}`}</title>
-        <meta name="keyword" content={siteMetadata.keyword} />
-        <meta name="description" content={siteMetadata.description} />
-        <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
       </Helmet>
       <Header
         title="Categories"
@@ -85,15 +85,12 @@ export const query = graphql`
     }
     site {
       siteMetadata {
-  			name
+        name
         bio
         avatar
         bgOfHomeHeader
-        language
         SEOTitle
-        keyword
-        description
       }
     }
   }
-`;
+`

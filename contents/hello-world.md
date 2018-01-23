@@ -15,6 +15,7 @@ I'm ❤  programming & UI design.
 * HTML5 & CSS3
 * JavaScript
 * Node.js
+* Go
 
 ## Tools
 
