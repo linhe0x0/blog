@@ -47,14 +47,16 @@ h1.title {
 
 相反，你可以定义一个拥有它们自己的封装风格的 styled Components。然后你就可以在你的代码中自由的使用它们了。
 
-    import styled from 'styled-components';
+```javascript
+import styled from 'styled-components';
 
-    const Title = styled.h1`
-      font-size: 1.5em;
-      color: purple;
-    `;
+const Title = styled.h1`
+  font-size: 1.5em;
+  color: purple;
+`;
 
-    <Title>Hello World</Title>
+<Title>Hello World</Title>
+```
 
 这两段代码看起来有一些细微的差别，事实上两者语法是非常相似的。但是它们的关键区别在于样式现在是这些组件的一部分啦。
 
@@ -74,40 +76,46 @@ styled-components 的联合创造者 Max Stoiber 说：
 
 为了遵循 『无类(no-class)』的理念，当涉及到自定义一个组件的行为时，styled-components 使用了类上的 props（props over classes）。所以呢，代码不是这样的：
 
-    <h1 className="title primary">Hello World</h1> // will be blue
+```css
+<h1 className="title primary">Hello World</h1> // will be blue
 
-    h1.title{
-      font-size: 1.5em;
-      color: purple;
+h1.title {
+  font-size: 1.5em;
+  color: purple;
 
-      &.primary{
-        color: blue;
-      }
-    }
+  &.primary {
+    color: blue;
+  }
+}
+```
 
 你需要这样写：
 
-    const Title = styled.h1`
-      font-size: 1.5em;
-      color: ${props => props.primary ? 'blue' : 'purple'};
-    `;
+```javascript
+const Title = styled.h1`
+  font-size: 1.5em;
+  color: ${props => props.primary ? 'blue' : 'purple'};
+`;
 
-    <Title primary>Hello World</Title> // will be blue
+<Title primary>Hello World</Title> // will be blue
+```
 
 正如你所看到的那样，styled-components 通过将所有的 CSS 和 HTML 之间的相关实现细节（从组件中）分离出来使你的 React 组件更干净。
 
 也就是说，styled-components 的 CSS 仍然还是 CSS。所以像下面这样的代码也是完全有效的（尽管略微不常用）。
 
-    const Title = styled.h1`
-      font-size: 1.5em;
-      color: purple;
+```javascript
+const Title = styled.h1`
+  font-size: 1.5em;
+  color: purple;
 
-      &.primary{
-        color: blue;
-      }
-    `;
+  &.primary {
+    color: blue;
+  }
+`;
 
-    <Title className="primary">Hello World</Title> // will be blue
+<Title className="primary">Hello World</Title> // will be blue
+```
 
 这是让 styled-components 很容易就被接受的一个特性：当存在疑惑时，你总是可以倒退回你所熟悉的领域。
 
