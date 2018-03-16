@@ -3,6 +3,7 @@ title: "一个关于 Styled Components 的五分钟介绍"
 category: "技术"
 cover: "https://camo.githubusercontent.com/4cf7254acbf60caa799fadead24a8e35839b84af/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f323030302f312a4449466a69345a6d4a61345f483345706247325841772e706e67"
 tags:
+  - 译文
   - CSS
   - React
 date: "2017-02-10"
