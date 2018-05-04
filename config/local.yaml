@@ -17,7 +17,7 @@ thumbnail: "" # The first thing people will see when someone shares your website
 
 # Site settings
 favicon: https://assets-cdn.github.com/favicon.ico
-bgOfHomeHeader: http://7xl8me.com1.z0.glb.clouddn.com/home.jpg
+bgOfHomeHeader: https://ws3.sinaimg.cn/large/006tKfTcly1fqzccuiclmj31400qo0zq.jpg
 navbar:
   showDefaultItems: true
   brand: 根号三
