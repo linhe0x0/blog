@@ -1,6 +1,7 @@
 {
   "name": "lite",
   "version": "0.3.0",
+  "private": true,
   "keywords": [
     "Gatsby",
     "static",
@@ -21,17 +22,15 @@
   },
   "homepage": "https://github.com/sqrthree/lite#readme",
   "scripts": {
-    "develop": "gatsby develop",
     "dev": "npm run develop",
-    "start": "npm run develop",
+    "start": "npm run build && npm run serve",
+    "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "deploy": "node scripts/deploy.js",
     "lint": "prettier --list-different --write '{*.js,src/**/*.+(js|jsx|css),scripts/*.js}'",
-    "lint:md": "prettier --list-different --write 'contents/*.md'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:md": "prettier --list-different --write 'contents/*.md'"
   },
-  "private": true,
   "engines": {
     "node": ">=6.0.0"
   },
