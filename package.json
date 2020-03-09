@@ -35,20 +35,20 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "chalk": "^2.3.0",
-    "classnames": "^2.2.5",
-    "config": "^1.29.0",
-    "gatsby": "^1.9.149",
-    "gatsby-link": "^1.6.32",
-    "gatsby-plugin-nprogress": "^1.0.9",
-    "gatsby-plugin-react-helmet": "^2.0.3",
-    "gatsby-remark-prismjs": "^1.2.15",
-    "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.26",
-    "gh-pages": "^1.1.0",
-    "lodash": "^4.17.4",
-    "react-helmet": "^5.2.0",
-    "react-markdown": "^3.1.4"
+    "chalk": "^2.4.2",
+    "classnames": "^2.2.6",
+    "config": "^1.31.0",
+    "gatsby": "^1.9.279",
+    "gatsby-link": "^1.6.46",
+    "gatsby-plugin-nprogress": "^1.0.14",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-remark-prismjs": "^1.2.24",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
+    "gh-pages": "^1.2.0",
+    "lodash": "^4.17.15",
+    "react-helmet": "^5.2.1",
+    "react-markdown": "^3.6.0"
   },
   "devDependencies": {
     "prettier": "1.10.2"
