@@ -26,4 +26,4 @@ jobs:
           BRANCH: master
           FOLDER: public
           CLEAN: true
-          REPOSITORY_NAME: sqrthree.github.io
+          REPOSITORY_NAME: sqrthree/sqrthree.github.io
