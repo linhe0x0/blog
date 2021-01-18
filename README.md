@@ -1,9 +1,6 @@
-[![Build Status](https://travis-ci.org/sqrthree/MyBlog.svg?branch=master)](https://travis-ci.org/sqrthree/MyBlog)
-[![](https://david-dm.org/sqrthree/MyBlog.svg)](http://blog.sqrtthree.com/)
-
 ## About Me
 
-I'm a web developer, now living in ZhengZhou, China.
+Independent Web Developer.
 
 I'm ❤ programming & UI design.
 
@@ -16,15 +13,15 @@ I'm ❤ programming & UI design.
 
 ## Archives
 
-* [https://github.com/sqrthree/sqrthree.github.io/issues](https://github.com/sqrthree/sqrthree.github.io/issues)
+- [https://github.com/sqrthree/sqrthree.github.io/issues](https://github.com/sqrthree/sqrthree.github.io/issues)
 
 ## Social events
 
-* [掘金翻译计划](https://github.com/xitu/gold-miner)
+- [掘金翻译计划](https://github.com/xitu/gold-miner)
 
 ## Tools
 
-* Mac & vim
+- Mac & vim
 
 ## Contact Me
 

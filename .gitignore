@@ -91,5 +91,3 @@ typings/
 .cache/
 public/
 .gatsby-context.js
-
-config/local.yaml
