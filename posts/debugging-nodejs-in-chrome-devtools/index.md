@@ -1,16 +1,16 @@
 ---
-title: "在 Chrome 开发者工具中调试 node.js"
+title: '在 Chrome 开发者工具中调试 node.js'
 tags:
   - 译文
 category: 技术
-date: "2016-02-29"
+date: '2016-02-29'
 ---
 
-> * 原文链接 : [Debugging Node.js in Chrome DevTools](http://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools)
-> * 原文作者 : [MATT DESLAURIERS](http://mattdesl.svbtle.com/)
-> * 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
-> * 译者 : [sqrthree (根号三)](https://github.com/sqrthree)
-> * 校对者: [shenxn](https://github.com/shenxn)、[CoderBOBO](https://github.com/CoderBOBO)
+> - 原文链接 : [Debugging Node.js in Chrome DevTools](http://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools)
+> - 原文作者 : [MATT DESLAURIERS](http://mattdesl.svbtle.com/)
+> - 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
+> - 译者 : [sqrthree (根号三)](https://github.com/sqrthree)
+> - 校对者: [shenxn](https://github.com/shenxn)、[CoderBOBO](https://github.com/CoderBOBO)
 
 这篇文章介绍了一种在 Chrome 开发者工具里面开发、调试和分析 Node.js 应用程序的新方法。
 
@@ -89,10 +89,10 @@ devtool app.js --break
 
 下面是一些对于那些学习 Chrome 开发者工具的人来说可能不是特别常用的功能:
 
-* [条件断点](http://blittle.github.io/chrome-dev-tools/sources/conditional-breakpoints.html)
-* [有未捕获的异常时暂停](http://blittle.github.io/chrome-dev-tools/sources/uncaught-exceptions.html)
-* [重启帧](http://blittle.github.io/chrome-dev-tools/sources/restart-frame.html)
-* [监听表达式](http://albertlee.azurewebsites.net/using-watch-tools-in-chrome-dev-tools-to-improve-your-debugging/)
+- [条件断点](http://blittle.github.io/chrome-dev-tools/sources/conditional-breakpoints.html)
+- [有未捕获的异常时暂停](http://blittle.github.io/chrome-dev-tools/sources/uncaught-exceptions.html)
+- [重启帧](http://blittle.github.io/chrome-dev-tools/sources/restart-frame.html)
+- [监听表达式](http://albertlee.azurewebsites.net/using-watch-tools-in-chrome-dev-tools-to-improve-your-debugging/)
 
 > 提示 - 当调试器暂停时，你可以敲击 `Escape` 按键打开一个执行在当前作用域内的控制台。你可以修改一些变量然后继续执行。
 
@@ -261,11 +261,11 @@ devtool app.js --no-node-timers
 
 但是，它缺少一些 Chrome 开发者工具中的功能，例如:
 
-* 一个丰富的互动的控制台
-* 异常时暂停
-* 异步堆栈跟踪
-* Promise 检查
-* 分析
+- 一个丰富的互动的控制台
+- 异常时暂停
+- 异步堆栈跟踪
+- Promise 检查
+- 分析
 
 但因为你和你的 WebStorm 工作空间集成，所以你可以在调试时修改和编辑你的文件。它也是运行在一个真正的 Node/V8 环境中，而不像 `devtool` 一样。因此对于大部分的 Node.js 应用程序来说它更稳健。
 

@@ -1,19 +1,19 @@
 ---
-title: "一个关于 Styled Components 的五分钟介绍"
-category: "技术"
-cover: "https://camo.githubusercontent.com/4cf7254acbf60caa799fadead24a8e35839b84af/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f323030302f312a4449466a69345a6d4a61345f483345706247325841772e706e67"
+title: '一个关于 Styled Components 的五分钟介绍'
+category: '技术'
+cover: 'https://camo.githubusercontent.com/4cf7254acbf60caa799fadead24a8e35839b84af/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f323030302f312a4449466a69345a6d4a61345f483345706247325841772e706e67'
 tags:
   - 译文
   - CSS
   - React
-date: "2017-02-10"
+date: '2017-02-10'
 ---
 
-> * 原文地址：[A 5-minute Intro to Styled Components](https://medium.freecodecamp.com/a-5-minute-intro-to-styled-components-41f40eb7cd55#.z1nrxe1zr)
-> * 原文作者：[Sacha Greif](https://medium.freecodecamp.com/@sachagreif)
-> * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
-> * 译者：[根号三](https://github.com/sqrthree)
-> * 校对者：[Tina92](https://github.com/Tina92)、[lovelyCiTY](https://github.com/lovelyCiTY)
+> - 原文地址：[A 5-minute Intro to Styled Components](https://medium.freecodecamp.com/a-5-minute-intro-to-styled-components-41f40eb7cd55#.z1nrxe1zr)
+> - 原文作者：[Sacha Greif](https://medium.freecodecamp.com/@sachagreif)
+> - 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+> - 译者：[根号三](https://github.com/sqrthree)
+> - 校对者：[Tina92](https://github.com/Tina92)、[lovelyCiTY](https://github.com/lovelyCiTY)
 
 CSS 是一个很神奇的语言，你可以在 15 分钟之内就学会一些基础部分，但是如果你要找到一个好的方式来组织你的样式，将会花费数年时间。
 
@@ -38,9 +38,7 @@ CSS 是一个很神奇的语言，你可以在 15 分钟之内就学会一些基
 关于 Styled Components 你需要理解的最主要的事情就是其名称应该采取字面意思。你不再根据他们的 Class 或者 HTML 元素来对 HTML 元素或组件进行样式化了。
 
 ```css
-<h1 className='title' > Hello World</h1>
-
-h1.title {
+<h1 className='title' > Hello World</h1 > h1.title {
   font-size: 1.5em;
   color: purple;
 }
@@ -49,14 +47,14 @@ h1.title {
 相反，你可以定义一个拥有它们自己的封装风格的 styled Components。然后你就可以在你的代码中自由的使用它们了。
 
 ```javascript
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Title = styled.h1`
   font-size: 1.5em;
   color: purple;
-`;
+`
 
-<Title>Hello World</Title>
+;<Title>Hello World</Title>
 ```
 
 这两段代码看起来有一些细微的差别，事实上两者语法是非常相似的。但是它们的关键区别在于样式现在是这些组件的一部分啦。
@@ -95,10 +93,10 @@ h1.title {
 ```javascript
 const Title = styled.h1`
   font-size: 1.5em;
-  color: ${props => props.primary ? 'blue' : 'purple'};
-`;
+  color: ${(props) => (props.primary ? 'blue' : 'purple')};
+`
 
-<Title primary>Hello World</Title> // will be blue
+;<Title primary>Hello World</Title> // will be blue
 ```
 
 正如你所看到的那样，styled-components 通过将所有的 CSS 和 HTML 之间的相关实现细节（从组件中）分离出来使你的 React 组件更干净。
@@ -113,9 +111,9 @@ const Title = styled.h1`
   &.primary {
     color: blue;
   }
-`;
+`
 
-<Title className="primary">Hello World</Title> // will be blue
+;<Title className="primary">Hello World</Title> // will be blue
 ```
 
 这是让 styled-components 很容易就被接受的一个特性：当存在疑惑时，你总是可以倒退回你所熟悉的领域。
@@ -136,9 +134,9 @@ const Title = styled.h1`
 
 如果我的文章让你感到好奇的话，这里有一些链接你可以了解更多关于 styled-components 的知识。
 
-* Max Stoiber 最近给 [Smashing Magazine](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/) 写了一篇文章有关创建 styled-components 的原因的文章。
-* [styled-components repo](https://github.com/styled-components/styled-components) 它自己就有一个很丰富的文档.
-* [Jamie Dixon 写的这篇文章](https://medium.com/@jamiedixon/styled-components-production-patterns-c22e24b1d896#.tfxr5bws2) 讲述了切换到 styled-components 的几个好处.
-* 如果你想了解更多关于这个库实际上是如何实现的，可以阅读 Max 的 [这篇文章](http://mxstbr.blog/2016/11/styled-components-magic-explained/)。
+- Max Stoiber 最近给 [Smashing Magazine](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/) 写了一篇文章有关创建 styled-components 的原因的文章。
+- [styled-components repo](https://github.com/styled-components/styled-components) 它自己就有一个很丰富的文档.
+- [Jamie Dixon 写的这篇文章](https://medium.com/@jamiedixon/styled-components-production-patterns-c22e24b1d896#.tfxr5bws2) 讲述了切换到 styled-components 的几个好处.
+- 如果你想了解更多关于这个库实际上是如何实现的，可以阅读 Max 的 [这篇文章](http://mxstbr.blog/2016/11/styled-components-magic-explained/)。
 
 如果你想更进一步，也可以了解下 [Glamor](https://github.com/threepointone/glamor) —— 一个完全不同的 CSS 新浪潮。
