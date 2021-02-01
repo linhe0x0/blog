@@ -46,8 +46,8 @@ export default function TagPage(props) {
 
   return (
     <Layout>
-      <PageHeader size="small" title="# Tags #" />
-      <div className="container mx-auto max-w-screen-lg py-12 mb-10">
+      <PageHeader title="Say Hi to All Tags" mini />
+      <div className="container mx-auto px-4 py-12 mb-10">
         <div className="relative z-10">
           <TagList tags={tags} />
         </div>
@@ -62,7 +62,7 @@ export default function TagPage(props) {
                 </div>
                 <ul className="relative z-10 divide-y divide-gray-100">
                   {posts.map((post) => (
-                    <li key={post.id} className="py-4">
+                    <li key={post.id} className="py-4 pl-4">
                       <Link to={getPermalink(post)}>
                         <h3 className="text-lg mb-2">
                           {post.frontmatter.title}
