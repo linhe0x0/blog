@@ -18,9 +18,3 @@ favicon: ''
 
 analytics:
   google: 'UA-64863915-1'
-
-deploy:
-  github:
-    username: 'sqrthree'
-    repo: 'sqrthree.github.io'
-    branch: master
