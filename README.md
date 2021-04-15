@@ -1,13 +1,20 @@
+# Hi there 👋
+
+This is the place where I opensource stuff and break things :rofl:
+
+- 🔭 I’m currently working on something cool :wink:
+- 🌱 I’m currently playing Go, Docker & GraphQL
+- 💬 Ask me about anything related to Javascript / Typescript / Node.js
+- 📫 How to reach me: [@sqrtthree](mailto:imsqrtthree@gmail.com)
+
 ## About Me
 
 Independent Web Developer.
 
-I'm ❤ programming & UI design.
-
 ## Skills
 
 - JavaScript
-- Node
+- Node.js
 - Go
 - Docker
 
@@ -23,9 +30,6 @@ I'm ❤ programming & UI design.
 
 - Mac & vim
 
-## Contact Me
-
-- Mail: [imsqrtthree@gmail.com](mailto:imsqrtthree@gmail.com)
-- GitHub: [@sqrthree](https://github.com/sqrthree)
-- Twitter: [@sqrtthree](https://twitter.com/sqrtthree)
-- Blog: [blog.sqrtthree.com](https://blog.sqrtthree.com/)
+[Email](mailto:imsqrtthree@gmail.com) •
+[Twitter](https://twitter.com/sqrtthree) •
+[Blog](https://blog.sqrtthree.com)
