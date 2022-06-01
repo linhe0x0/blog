@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "gatsby": "^4.13.0",
-    "gatsby-theme-mini": "git+https://github.com/sqrthree/gatsby-theme-mini.git"
+    "gatsby-theme-mini": "^0.2.1"
   },
   "devDependencies": {
     "prettier": "2.6.2"
