@@ -20,9 +20,8 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.3.3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: master
-          FOLDER: public
-          CLEAN: true
-          REPOSITORY_NAME: sqrthree/sqrthree.github.io
+          branch: master
+          folder: public
+          token: ${{ secrets.ACCESS_TOKEN }}
+          clean: true
+          repository-name: sqrthree/sqrthree.github.io
