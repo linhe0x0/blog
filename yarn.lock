@@ -5751,10 +5751,10 @@ gatsby-telemetry@^3.13.0:
     lodash "^4.17.21"
     node-fetch "^2.6.7"
 
-gatsby-theme-mini@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npmmirror.com/gatsby-theme-mini/-/gatsby-theme-mini-0.2.1.tgz#dbecb1bf2013f65705fee0556a3485b69512f93b"
-  integrity sha512-QeRvTaXUmN7iIq6Mm8e+slFZHTsWezjFXaDPwKF1CAJ+yQj4LUOAV86E+btSDav8vxCloXFm41K64JSemqLhgg==
+gatsby-theme-mini@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-mini/-/gatsby-theme-mini-0.2.2.tgz#236601b15ee2257f96add966703a837de2a6a274"
+  integrity sha512-c88jnK25SpVXL1d+i5bYQQmtPofnIhizLWePVCPfUeuxu94s6ZSQX/OxmXdFwBqVJWr0zJY0ENXXUY3d/OxDcw==
   dependencies:
     "@tailwindcss/line-clamp" "^0.4.0"
     config "^3.3.7"
