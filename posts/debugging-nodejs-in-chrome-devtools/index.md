@@ -4,6 +4,7 @@ tags:
   - 译文
 category: 技术
 date: '2016-02-29'
+author: 根号三
 ---
 
 > - 原文链接 : [Debugging Node.js in Chrome DevTools](http://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools)

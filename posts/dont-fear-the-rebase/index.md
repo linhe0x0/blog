@@ -6,6 +6,7 @@ tags:
   - Git
 date: '2018-03-20'
 cover: https://hackernoon.com/hn-images/1*09KWDWnv1JDeZ-LEkXpL7g.png
+author: 根号三
 ---
 
 > - 原文地址：[Don’t Fear The Rebase](https://hackernoon.com/dont-fear-the-rebase-bca683888dae)

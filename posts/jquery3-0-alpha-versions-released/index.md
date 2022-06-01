@@ -1,10 +1,11 @@
 ---
-title: "jQuery 3.0 以及兼容版的 Alpha 版本发布"
+title: 'jQuery 3.0 以及兼容版的 Alpha 版本发布'
 category: 技术
 tags:
-  - "jQuery3.0"
+  - 'jQuery3.0'
   - 译文
-date: "2015-11-12"
+date: '2015-11-12'
+author: 根号三
 ---
 
 从我们做出上一个重大的版本发布已经过去很长时间了，所以你理应再得到一个新版本。因此我们非常高兴的宣布 `jQuery 3.0` 的第一个 `alpha` 版本的发布。
@@ -61,10 +62,10 @@ https://github.com/jquery/jquery/issues/1751
 
 `jQuery.Deferred` 对象为了兼容 `Promises/A+` 和 `ES2015 Promises` 已经做出了更新，Promises/A+ Compliance Test Suite 检验。这意味着 引入一个 `.catch()` 方法，`.then()`方法也有一些重要的改变。
 
-* `.then()` 方法的回调函数中抛出的异常现在变成了一个可注入的值。以前，异常会一直往上冒泡，直至终止回调函数的执行，然后不可撤销的锁定 parent and child Deferred 对象。
-* 通过 `.then()` 方法创建的 Deferred 对象的 resolution 状态现在被它的回调函数控制——异常成为了注入值，并且 non-thenable 返回的结果成为了 fulfillment 值。以前，从注入处理器返回变成了注入值。
-* 回调函数总是被异步调用。以前，它们根据绑定或是 resolution 被立即调用，无论哪个更晚一些。
-* Progress 回调函数不再解决受约束的 Deferred 对象。
+- `.then()` 方法的回调函数中抛出的异常现在变成了一个可注入的值。以前，异常会一直往上冒泡，直至终止回调函数的执行，然后不可撤销的锁定 parent and child Deferred 对象。
+- 通过 `.then()` 方法创建的 Deferred 对象的 resolution 状态现在被它的回调函数控制——异常成为了注入值，并且 non-thenable 返回的结果成为了 fulfillment 值。以前，从注入处理器返回变成了注入值。
+- 回调函数总是被异步调用。以前，它们根据绑定或是 resolution 被立即调用，无论哪个更晚一些。
+- Progress 回调函数不再解决受约束的 Deferred 对象。
 
 考虑一下下面的代码，哪个 parent Deferred 被注入以及 child 回调函数产生异常:
 
@@ -166,5 +167,5 @@ done, fail, always
 
 ## 相关链接
 
-* jQuery 3.0.0-alpha1: [https://code.jquery.com/jquery-3.0.0-alpha1.js](https://code.jquery.com/jquery-3.0.0-alpha1.js)
-* jQuery compat 3.0.0-alpha1: [https://code.jquery.com/jquery-3.0.0-alpha1.js](https://code.jquery.com/jquery-3.0.0-alpha1.js)
+- jQuery 3.0.0-alpha1: [https://code.jquery.com/jquery-3.0.0-alpha1.js](https://code.jquery.com/jquery-3.0.0-alpha1.js)
+- jQuery compat 3.0.0-alpha1: [https://code.jquery.com/jquery-3.0.0-alpha1.js](https://code.jquery.com/jquery-3.0.0-alpha1.js)

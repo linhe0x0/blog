@@ -16,5 +16,10 @@ thumbnail: ''
 # Site settings
 favicon: ''
 
+# Post metadata
+authors:
+  - name: 根号三
+    avatar: 'https://avatars.githubusercontent.com/u/8622362?v=4'
+
 analytics:
   google: 'UA-64863915-1'

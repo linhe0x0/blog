@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/sqrthree/little#readme",
   "scripts": {
-    "dev": "npm run develop",
+    "dev": "NODE_CONFIG_ENV=production npm run develop",
     "start": "npm run build && npm run serve",
     "develop": "gatsby develop",
     "build": "gatsby build",
@@ -26,10 +26,10 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "gatsby": "^3.3.1",
-    "gatsby-theme-mini": "^0.1.1"
+    "gatsby": "^4.13.0",
+    "gatsby-theme-mini": "^0.2.1"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "prettier": "2.6.2"
   }
 }

@@ -1,7 +1,8 @@
 ---
-title: "解决 Javascript 中 atob 方法解码中文字符乱码问题"
+title: '解决 Javascript 中 atob 方法解码中文字符乱码问题'
 category: 技术
-date: "2015-08-29"
+date: '2015-08-29'
+author: 根号三
 ---
 
 > 今天在写一个通过 GitHub API 获取 README 的功能的时候, 由于返回值为 Base64 编码, 我在尝试用 js 转换为 UFT-8 的时候发现中文会导致乱码. 在这里总结一下相关的知识点吧.
@@ -85,5 +86,5 @@ b64_to_utf8('SSUyNTIwJTI1dTI2NjElMjUyMFVuaWNvZGUlMjUyMQ=='); // "I ♡ Unicode!"
 
 ## 参考资料
 
-* [https://developer.mozilla.org/en/docs/Web/API/WindowBase64/Base64_encoding_and_decoding](https://developer.mozilla.org/en/docs/Web/API/WindowBase64/Base64_encoding_and_decoding)
-* [https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/btoa)
+- [https://developer.mozilla.org/en/docs/Web/API/WindowBase64/Base64_encoding_and_decoding](https://developer.mozilla.org/en/docs/Web/API/WindowBase64/Base64_encoding_and_decoding)
+- [https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/btoa](https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/btoa)

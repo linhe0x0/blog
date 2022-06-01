@@ -1,9 +1,10 @@
 ---
-title: "聊聊 JS 中的严格模式"
+title: '聊聊 JS 中的严格模式'
 category: 技术
 tags:
   - JS
-date: "2015-10-09"
+date: '2015-10-09'
+author: 根号三
 ---
 
 ## 什么是严格模式？

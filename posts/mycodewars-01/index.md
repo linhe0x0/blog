@@ -1,10 +1,11 @@
 ---
-title: "My Code Wars v0.1"
+title: 'My Code Wars v0.1'
 description: 这里记录了我在 codewars 网站上的一些收获。
 category: 技术
 tags:
   - CodeWars
-date: "2015-11-06"
+date: '2015-11-06'
+author: 根号三
 ---
 
 > 这里讲述的是一个 8 级（kyu）菜鸟立志成为 8 段（dan）大神的故事。故事的起因是这样的。菜鸟有幸发现了 [codewars](http://www.codewars.com/) 这个网站，从此沉迷于内一发不可收拾，他在代码战争中一次次遭遇挫败，又一次次爬起来继续跌倒下去。欲知详情，且看『迈向 7 级的第一个脚印』。
@@ -60,8 +61,8 @@ Array.prototype.numberOfOccurrences = function(search) {
 
 ### 关键字积累
 
-* prototype
-* filter
+- prototype
+- filter
 
 ### 菜鸟总结
 

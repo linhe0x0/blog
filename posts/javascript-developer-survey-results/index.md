@@ -1,16 +1,17 @@
 ---
-title: "JavaScript 开发者年度调查报告"
+title: 'JavaScript 开发者年度调查报告'
 category: 技术
 tags:
   - 译文
-date: "2015-12-26"
+date: '2015-12-26'
+author: 根号三
 ---
 
-> * 原文链接 : [JavaScript Developer Survey Results](https://ponyfoo.com/articles/javascript-developer-survey-results)
-> * 原文作者 : [ponyfoo](https://ponyfoo.com/)
-> * 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
-> * 译者 : [sqrthree(根号三)](https://github.com/sqrthree)
-> * 校对者: [Zhangdroid](https://github.com/Zhangdroid)
+> - 原文链接 : [JavaScript Developer Survey Results](https://ponyfoo.com/articles/javascript-developer-survey-results)
+> - 原文作者 : [ponyfoo](https://ponyfoo.com/)
+> - 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
+> - 译者 : [sqrthree(根号三)](https://github.com/sqrthree)
+> - 校对者: [Zhangdroid](https://github.com/Zhangdroid)
 
 截止目前有超过了 5000 人参与了(该次调查)，准确的说是 5350 人。我迫不及待的想要和大家分享一下这次调查的细节。在分享之前我想要感谢参与调查的每一个人。这是 Javascript 社区一个伟大的时刻，我对未来的事情感到无比激动。
 

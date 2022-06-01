@@ -1,15 +1,16 @@
 ---
-title: "作为一个开源软件的作者是一种什么样的感受？"
+title: '作为一个开源软件的作者是一种什么样的感受？'
 category: 技术
 tags:
   - 译文
-date: "2017-03-15"
+date: '2017-03-15'
+author: 根号三
 ---
 
-> * 原文地址：[What it feels like to be an open-source maintainer](https://nolanlawson.com/2017/03/05/what-it-feels-like-to-be-an-open-source-maintainer/)
-> * 原文作者：[Nolan Lawson](https://twitter.com/nolanlawson)
-> * 译文出自：[[译] 作为一个开源软件的作者是一种什么样的感受？](https://github.com/sqrthree/sqrthree.github.io/issues/13)
-> * 译者：[根号三](http://github.com/sqrthree)
+> - 原文地址：[What it feels like to be an open-source maintainer](https://nolanlawson.com/2017/03/05/what-it-feels-like-to-be-an-open-source-maintainer/)
+> - 原文作者：[Nolan Lawson](https://twitter.com/nolanlawson)
+> - 译文出自：[[译] 作为一个开源软件的作者是一种什么样的感受？](https://github.com/sqrthree/sqrthree.github.io/issues/13)
+> - 译者：[根号三](http://github.com/sqrthree)
 
 你的门外有几百人在排队。他们耐心地等待着你回答他们的问题、抱怨、pull requests 和 功能请求。
 

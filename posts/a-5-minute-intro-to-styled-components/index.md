@@ -7,6 +7,7 @@ tags:
   - CSS
   - React
 date: '2017-02-10'
+author: 根号三
 ---
 
 > - 原文地址：[A 5-minute Intro to Styled Components](https://medium.freecodecamp.com/a-5-minute-intro-to-styled-components-41f40eb7cd55#.z1nrxe1zr)

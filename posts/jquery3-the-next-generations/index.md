@@ -1,10 +1,11 @@
 ---
-title: "jQuery 3.0 —— 下一代的jQuery"
+title: 'jQuery 3.0 —— 下一代的jQuery'
 category: 技术
 tags:
   - jQuery3.0
   - 译文
-date: "2015-11-05"
+date: '2015-11-05'
+author: 根号三
 ---
 
 2014 年 10 月 29 日，jQuery 官方博客上更新了一篇博文，描述了关于下一代 jQuery 的一些信息。实际上这篇博文至今都已经一年时间了，jQuery 官方团队也早在 2015 年 7 月 13 日发布了 `jQuery 3.0.0-alpha1` 版本。我之前也只是匆匆的看过一遍，今日闲着无事，就尝试翻译了一下并发布了这篇迟到了一年的译版，想要了解 `3.0` 中的新特性的话可以关注我后续的更新。
@@ -27,9 +28,9 @@ date: "2015-11-05"
 
 下面就是一些 `jQuery API` 3.0 版本要说的内容：
 
-* 如果你需要支持更多更广泛的浏览器，包括诸如 `IE8, Opera 12, Safari 5` 等，请使用 `jQuery-Compat 3.0.0` 版本。我们建议大多数网站都使用这一版本，因为它为网站的来访者提供了最好的兼容性支持。
-* 如果你的网站仅仅是为了那些最先进的浏览器而建，或者仅仅是一个基于 `HTML` 的应用以嵌入一个 `web` 视图(例如: PhoneGap，Cordova)，你预先知道其使用的是哪一个浏览器解析引擎， 那就使用 `jQuery 3.0.0` 吧。
-* 除非我们宣布，否则对应的主、次版本号相同的两个包都会有相同的公开 API。这样开发者就能够很容易的在两个包之间切换，并且在第三方 `jQuery` 插件中拥有最好的兼容性。
+- 如果你需要支持更多更广泛的浏览器，包括诸如 `IE8, Opera 12, Safari 5` 等，请使用 `jQuery-Compat 3.0.0` 版本。我们建议大多数网站都使用这一版本，因为它为网站的来访者提供了最好的兼容性支持。
+- 如果你的网站仅仅是为了那些最先进的浏览器而建，或者仅仅是一个基于 `HTML` 的应用以嵌入一个 `web` 视图(例如: PhoneGap，Cordova)，你预先知道其使用的是哪一个浏览器解析引擎， 那就使用 `jQuery 3.0.0` 吧。
+- 除非我们宣布，否则对应的主、次版本号相同的两个包都会有相同的公开 API。这样开发者就能够很容易的在两个包之间切换，并且在第三方 `jQuery` 插件中拥有最好的兼容性。
 
 未来每一个版本发布的时候，我们都会同时放到 `npm` 和 `bower` 上。两个包也会以单个文件的形式在 `jQuery CDN` 上提供。在那里使用他们和根据你自己的需要去包含 `jquery-compat-3.0.0.js` 或`jquery-3.0.0.js` 一样简便。我们也和 Google’s CDN 的运营人员谈过，他们也会为这两个包提供支持。
 
@@ -39,5 +40,5 @@ date: "2015-11-05"
 
 ## 相关链接
 
-* jQuery 3.0.0-alpha1: [https://code.jquery.com/jquery-3.0.0-alpha1.js](https://code.jquery.com/jquery-3.0.0-alpha1.js)
-* jQuery compat 3.0.0-alpha1: [https://code.jquery.com/jquery-3.0.0-alpha1.js](https://code.jquery.com/jquery-3.0.0-alpha1.js)
+- jQuery 3.0.0-alpha1: [https://code.jquery.com/jquery-3.0.0-alpha1.js](https://code.jquery.com/jquery-3.0.0-alpha1.js)
+- jQuery compat 3.0.0-alpha1: [https://code.jquery.com/jquery-3.0.0-alpha1.js](https://code.jquery.com/jquery-3.0.0-alpha1.js)
