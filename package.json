@@ -15,10 +15,10 @@
   },
   "homepage": "https://github.com/sqrthree/little#readme",
   "scripts": {
-    "dev": "NODE_CONFIG_ENV=production npm run develop",
+    "dev": "npm run develop",
     "start": "npm run build && npm run serve",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
+    "develop": "NODE_CONFIG_ENV=production gatsby develop",
+    "build": "NODE_CONFIG_ENV=production gatsby build",
     "serve": "gatsby serve",
     "lint:md": "prettier --list-different --write 'posts/*.md'"
   },
