@@ -1,6 +1,6 @@
 name: '根号三'
 bio: 'O ever youthful, O ever weeping.'
-cover: ''
+cover: '/cover.svg'
 social:
   - name: github
     url: https://github.com/sqrthree
