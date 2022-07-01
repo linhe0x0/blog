@@ -30,6 +30,6 @@
     "gatsby-theme-mini": "^0.2.1"
   },
   "devDependencies": {
-    "prettier": "2.6.2"
+    "prettier": "2.7.1"
   }
 }
