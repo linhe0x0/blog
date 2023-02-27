@@ -24,4 +24,4 @@ jobs:
           folder: public
           token: ${{ secrets.ACCESS_TOKEN }}
           clean: true
-          repository-name: sqrthree/sqrthree.github.io
+          repository-name: linhe0x0/linhe0x0.github.io

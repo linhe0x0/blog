@@ -3,12 +3,12 @@ bio: 'O ever youthful, O ever weeping.'
 cover: '/cover.svg'
 social:
   - name: github
-    url: https://github.com/sqrthree
+    url: https://github.com/linhe0x0
   - name: twitter
-    url: https://twitter.com/sqrtthree
+    url: https://twitter.com/linhe0x0
 
 # Site SEO
-SEOTitle: sqrtthree's blog | 根号三的博客
+SEOTitle: linhe0x0's blog | 根号三的博客
 keyword: '前端 前端工程师 HTML5 CSS3 Javascript React Vue Node.js Go Docker'
 description: 'web 开发者, 擅长各项前端技能，专注于 web 端开发与前端性能, 并对 Nodejs 及 Go 服务端技术栈深感兴趣。'
 thumbnail: ''

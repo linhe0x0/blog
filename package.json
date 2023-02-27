@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "description": "A theme for blog based on Gatsby.",
-  "main": "index.js",
-  "author": "sqrtthree <imsqrtthree@gmail.com>",
+  "main": "README.md",
+  "author": "linhe0x0 <linhe0x0@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sqrthree/little.git"
+    "url": "git+https://github.com/linhe0x0/blog.git"
   },
   "bugs": {
-    "url": "https://github.com/sqrthree/little/issues"
+    "url": "https://github.com/linhe0x0/blog/issues"
   },
-  "homepage": "https://github.com/sqrthree/little#readme",
+  "homepage": "https://github.com/linhe0x0/blog#readme",
   "scripts": {
     "dev": "npm run develop",
     "start": "npm run build && npm run serve",
@@ -23,7 +23,7 @@
     "lint:md": "prettier --list-different --write 'posts/*.md'"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "gatsby": "^4.13.0",
