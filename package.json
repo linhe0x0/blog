@@ -26,7 +26,7 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "gatsby": "^4.13.0",
+    "gatsby": "^5.7.0",
     "gatsby-theme-mini": "^0.2.1"
   },
   "devDependencies": {
